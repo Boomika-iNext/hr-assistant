@@ -1,0 +1,23 @@
+# HR Assistant RAG Application Dependencies
+
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Azure OpenAI
+openai==2.7.2
+
+# Vector Database
+pinecone-client==5.0.1
+
+# PDF Processing
+PyPDF2==3.0.1
+
+# Environment Variables
+python-dotenv==1.2.1
+
+# Data Validation
+pydantic==2.12.4
+
+# HTTP Client (dependency for various packages)
+httpx==0.28.1
